@@ -1,0 +1,6 @@
+[submodule "boilerplate-bikerent-react"]
+	path = boilerplate-bikerent-react
+	url = https://github.com/AlessandroRodrigo/trio-react.git
+[submodule "boilerplate-bikerent-nodejs"]
+	path = boilerplate-bikerent-nodejs
+	url = https://github.com/AlessandroRodrigo/trio-node.git
