@@ -26,7 +26,7 @@ The user should select a range date on the calendar component, after that, the s
 
 - I took the decision of make the calendar component from scratch, because I didn't find any library that fits the requirements, mainly the design, I wanted to reach a near level of the figma prototype and I tested everything about this component. I used the `Context API` to handle state and functions inside the calendar component.
 
-  - Advantages: I could make the component exactly as I wanted, I could handle the state and functions inside the component, I could make the component reusable and completely test it.
+  - Advantages: I could make the component exactly as I wanted, I could handle the state and functions inside the component, I could make the component reusable and completely tested.
   - Disadvantages: I spent a lot of time to make the component, I could use a library to make it faster.
 
 - I integrated the calendar component with the BikeDetails component and adjusted the calculations to show the final amount and fees. On the BikeDetails container level I handled the booking action, calling the API endpoint and showing a success message to the user. I tried to make following the patterns of the project, the objective was integrate this new feature as if it were just another existing component. To finish, I also tried to use very simple and clean code.
@@ -52,4 +52,3 @@ The user should select a range date on the calendar component, after that, the s
 ### Next steps
 
 - It would be nice to improve the tests about this new feature, mainly the validation about the rental date;
-
