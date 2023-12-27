@@ -29,6 +29,10 @@
 - The user can rent a bike and will receive a success message;
 - The backend code was made following strictly the purposed clean architecture;
 
+## General questions
+
+- The challenge didn't ask for a validation about the rental dates, but I did something on this way, just to improve the quality of the service.
+
 ## Frontend
 
 - I took the decision of make the calendar component from scratch, because I didn't find any library that fits the requirements, mainly the design, I wanted to reach a near level of the figma prototype and I tested everything about this component. I used the `Context API` to handle state and functions inside the calendar component.
