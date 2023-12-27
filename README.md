@@ -44,6 +44,7 @@
 
 ### Next steps
 
+- It would be nice improve the performance, with profiling and techniques like `memo` and `useCallback`;
 - It would be nice improve the state management;
 - Improve the API calls, maybe using a library like `react-query` or `swr`;
 - write more tests ;
