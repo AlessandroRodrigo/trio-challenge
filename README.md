@@ -20,7 +20,14 @@
 
 ## Solution
 
-The user should select a range date on the calendar component, after that, the system will calculate the final amount and fees. The user can click on the button to rent the bike and the system will call the API endpoint to rent the bike.
+- The calendas was made exactly as the figma prototype;
+- The calendar component is reusable;
+- The calendar component is completely tested;
+- The calendar component is responsive;
+- The user can't rent the same bike in the same period;
+- The user can't rent a bike in the past;
+- The user can rent a bike and will receive a success message;
+- The backend code was made following strictly the purposed clean architecture;
 
 ## Frontend
 
