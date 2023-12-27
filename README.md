@@ -51,15 +51,16 @@
 
 ## Backend
 
-- The proposal of clean architecture was strictly adhered to
-- The schema.prisma was modified with the addition of a new model called `Rental` for rental control
-- A new repository was created for this new model
-- A new usecase was established to manage the business rules of the rental
-- A new controller was developed to manage the API endpoint
-- A new route was set up to handle the API endpoint
-- All created elements were tested, following the project's testing patterns
-- A validation about the rental date was created, it is not possible the same bike to be rented in the same period
+- The proposal of clean architecture was strictly adhered to;
+- The schema.prisma was modified with the addition of a new model called `Rental` for rental control;
+- A new repository was created for this new model;
+- A new usecase was established to manage the business rules of the rental;
+- A new controller was developed to manage the API endpoint;
+- A new route was set up to handle the API endpoint;
+- All created elements were tested, following the project's testing patterns;
+- A validation about the rental date was created, it is not possible the same bike to be rented in the same period.
 
 ### Next steps
 
 - It would be nice to improve the tests about this new feature, mainly the validation about the rental date;
+- It would be nice create a middleware to handle authentication.
